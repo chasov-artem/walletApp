@@ -1,0 +1,38 @@
+.pageBg {
+  background: #f7f7fa;
+  min-height: 100vh;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.wrapper {
+  background: #fff;
+  border-radius: 20px;
+  margin-top: 26px;
+  max-width: 420px;
+  width: 100%;
+  box-shadow: 0 4px 42px rgba(0,0,0,0.09);
+  padding: 18px 10px 34px 10px;
+}
+
+.topBlocks {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 18px;
+}
+
+.leftBlock {
+  flex: 1 2 220px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.rightBlock {
+  flex: 1 1 130px;
+  max-width: 160px;
+  display: flex;
+  align-items: flex-start;
+}

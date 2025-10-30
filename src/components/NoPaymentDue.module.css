@@ -1,0 +1,41 @@
+.noPaymentDue {
+  background: #fafafd;
+  border-radius: 15px;
+  padding: 14px 13px 13px 17px;
+  display: flex;
+  align-items: center;
+  min-height: 65px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+  width: 100%;
+}
+.colLeft {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.head {
+  font-size: 15px;
+  font-weight: 700;
+}
+.desc {
+  font-size: 13px;
+  color: #8c8c9e;
+  margin-top: 3px;
+}
+.colRight {
+  flex: 0 0 44px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.okCircle {
+  background: #fff;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.09);
+}

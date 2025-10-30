@@ -1,0 +1,63 @@
+.card {
+  display: flex;
+  align-items: center;
+  padding: 14px 7px 14px 11px;
+  border-bottom: 1px solid #efefef;
+  background: none;
+  transition: background .18s;
+}
+.card:active, .card:focus {
+  background: #f1f2f3;
+}
+.iconWrap {
+  min-width: 40px;
+  min-height: 40px;
+  border-radius: 12px;
+  background: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 13px;
+}
+.iconPayment { background: linear-gradient(135deg,#fde9b2,#fbd96e); }
+.iconCredit { background: linear-gradient(135deg,#cdf0fd 90%,#7596f9); }
+.iconApple { background: linear-gradient(135deg,#e3e3e3,#dadada); }
+.iconIkea { background: #ffd600; }
+.iconTarget { background: #fff5f5; }
+.iconUber { background: #222; }
+.iconWalmart { background: #f4eec7; }
+.iconBestBuy { background: #e6f3fa; }
+.iconStarbucks { background: #c3e3b5; }
+.details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+}
+.name {
+  font-weight: 700;
+  font-size: 15px;
+  color: #222;
+}
+.subtitle {
+  color: #9b9b9b;
+  font-size: 13px;
+  margin-top: 2px;
+}
+.amount {
+  font-weight: 900;
+  font-size: 16px;
+  margin-left: 13px;
+  color: #222;
+  min-width: 72px;
+  text-align: right;
+}
+.arrow{
+  color: #b5b5b5;
+  font-size: 18px;
+  font-weight:600;
+  margin-left: 2px;
+}
+.last {
+  border-bottom: none;
+}

@@ -1,0 +1,94 @@
+[
+  {
+    "id": "1",
+    "type": "payment",
+    "amount": 174.00,
+    "name": "Payment from JPMorgan Chase Bank",
+    "description": "Monthly card top up",
+    "date": "2025-10-28T13:09:00",
+    "pending": false
+  },
+  {
+    "id": "2",
+    "type": "credit",
+    "amount": 3.24,
+    "name": "Apple",
+    "description": "Card Number Used",
+    "date": "2025-10-28T09:40:00",
+    "pending": true,
+    "authorizedUser": "Diana"
+  },
+  {
+    "id": "3",
+    "type": "payment",
+    "amount": 499.71,
+    "name": "Payment from JPMorgan Chase Bank",
+    "description": "Salary top up",
+    "date": "2025-10-25T08:00:00",
+    "pending": false,
+    "authorizedUser": "Diana"
+  },
+  {
+    "id": "4",
+    "type": "credit",
+    "amount": 873.58,
+    "name": "Apple",
+    "description": "Purchase at Apple Store",
+    "date": "2025-10-24T12:34:00",
+    "pending": false
+  },
+  {
+    "id": "5",
+    "type": "credit",
+    "amount": 32.43,
+    "name": "Uber",
+    "description": "Ride to airport",
+    "date": "2025-10-23T21:12:00",
+    "pending": false
+  },
+  {
+    "id": "6",
+    "type": "credit",
+    "amount": 73.58,
+    "name": "Target",
+    "description": "Groceries",
+    "date": "2025-10-22T17:18:00",
+    "pending": false
+  },
+  {
+    "id": "7",
+    "type": "credit",
+    "amount": 71.26,
+    "name": "IKEA",
+    "description": "Furniture",
+    "date": "2025-10-21T22:42:00",
+    "pending": false
+  },
+  {
+    "id": "8",
+    "type": "credit",
+    "amount": 9.10,
+    "name": "Walmart",
+    "description": "Stationery",
+    "date": "2025-10-20T13:59:00",
+    "pending": false
+  },
+  {
+    "id": "9",
+    "type": "credit",
+    "amount": 12.99,
+    "name": "Starbucks",
+    "description": "Coffee purchase",
+    "date": "2025-10-19T12:30:00",
+    "pending": false
+  },
+  {
+    "id": "10",
+    "type": "credit",
+    "amount": 60.00,
+    "name": "Best Buy",
+    "description": "Electronics purchase",
+    "date": "2025-10-18T20:18:00",
+    "pending": false
+  }
+]

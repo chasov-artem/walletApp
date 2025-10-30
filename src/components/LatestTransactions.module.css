@@ -1,0 +1,15 @@
+.latestTransactions {
+  background: #fafafd;
+  border-radius: 15px;
+  padding: 10px 0 0 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  margin-bottom: 10px;
+  width: 100%;
+}
+.head {
+  font-size: 18px;
+  font-weight: 900;
+  color: #181818;
+  margin-bottom: 6px;
+  margin-left: 15px;
+}
