@@ -5,7 +5,7 @@ import TransactionDetail from "./pages/TransactionDetail";
 
 const App: React.FC = () => {
   return (
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<TransactionsList />} />
         <Route path="/transaction/:id" element={<TransactionDetail />} />
