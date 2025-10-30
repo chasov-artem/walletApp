@@ -1,49 +1,85 @@
 .pageBg {
-  background: #f7f7fa;
   min-height: 100vh;
-  padding: 0;
+  background: #ffffff;
+  width: 100vw;
   display: flex;
+  align-items: center;
   justify-content: center;
-  align-items: flex-start;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+  overflow: hidden;
 }
 
 .wrapper {
-  background: #fff;
-  border-radius: 20px;
-  margin-top: 26px;
-  max-width: 420px;
+  background: #eeeeee;
+  border-radius: 2px;
+  max-width: 440px;
+  min-width: 320px;
   width: 100%;
-  box-shadow: 0 4px 42px rgba(0,0,0,0.09);
-  padding: 18px 10px 34px 10px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  box-shadow: 0 4px 42px rgba(0, 0, 0, 0.09);
+  padding: 8px 6px 8px 6px;
+  display: flex;
+  flex-direction: column;
+  max-height: 98vh;
+  min-height: 0;
+  height: auto;
+  overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 .topBlocks {
-  display: flex;
-  gap: 14px;
-  margin-bottom: 18px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 6px;
+  margin-bottom: 7px;
+  width: 100%;
 }
 
-.leftBlock {
-  flex: 1 2 220px;
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
+.cardBalanceGrid {
+  grid-area: 1/1/2/2;
+}
+.dailyPointsGrid {
+  grid-area: 2/1/3/2;
+}
+.noPaymentDueGrid {
+  grid-area: 1/2/3/3;
 }
 
-.rightBlock {
-  flex: 1 1 130px;
-  max-width: 160px;
-  display: flex;
-  align-items: flex-start;
+.headlineTransactions {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 3px;
+  margin-left: 2px;
+  margin-top: 7px;
 }
 
+.scrollableList {
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: calc(100vh - 182px);
+  flex: 1 1 auto;
+  padding-bottom: 5px;
+  margin-bottom: 0;
+  scrollbar-width: thin;
+  scrollbar-color: #b9b8be #efefef;
+}
+.scrollableList::-webkit-scrollbar {
+  width: 6px;
+  background: #efefef;
+  border-radius: 8px;
+}
+.scrollableList::-webkit-scrollbar-thumb {
+  background: #b9b8be;
+  border-radius: 8px;
+}
 .mobileBarList {
   background: rgba(24, 24, 24, 0.8) !important;
-  margin-top: 36px !important;
+  margin-top: 11px !important;
   margin-bottom: 1.5vh !important;
-  box-shadow: 0 2px 8px rgba(24,24,24,0.08);
+  box-shadow: 0 2px 8px rgba(24, 24, 24, 0.08);
   width: 60px !important;
   border-radius: 12px !important;
 }

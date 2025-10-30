@@ -59,11 +59,11 @@
     sans-serif;
 }
 .transName {
-  color: #999daa;
+  color: #ceced5;
   font-size: 18px;
   margin: 11px 0 0 0;
   text-align: center;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: -0.9px;
 }
 .transDate {
@@ -93,12 +93,12 @@
 }
 .statusValue {
   margin-left: 7px;
-  font-weight: 500;
+  font-weight: 400;
 }
 .description {
   color: #b9b8be;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 400;
   margin-bottom: 0;
 }
 .authUser {
@@ -122,11 +122,11 @@
 .totalLabel {
   color: #bbb;
   font-size: 17px;
-  font-weight: 600;
+  font-weight: 400;
 }
 .totalValue {
   color: #181818;
-  font-weight: 800;
+  font-weight: 400;
   font-size: 19px;
 }
 .detailInfo {
