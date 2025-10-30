@@ -4,6 +4,7 @@ import NoPaymentDue from '../components/NoPaymentDue';
 import DailyPoints from '../components/DailyPoints';
 import LatestTransactions from '../components/LatestTransactions';
 import styles from './TransactionsList.module.css';
+import MobileBar from '../components/MobileBar';
 
 const TransactionsList: React.FC = () => {
   return (
@@ -19,6 +20,7 @@ const TransactionsList: React.FC = () => {
           </div>
         </div>
         <LatestTransactions />
+        <MobileBar position="bottom" color="#181818" className="mobileBarList" />
       </div>
     </div>
   );

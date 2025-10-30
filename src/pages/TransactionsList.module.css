@@ -15,6 +15,8 @@
   width: 100%;
   box-shadow: 0 4px 42px rgba(0,0,0,0.09);
   padding: 18px 10px 34px 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .topBlocks {
@@ -35,4 +37,13 @@
   max-width: 160px;
   display: flex;
   align-items: flex-start;
+}
+
+.mobileBarList {
+  background: rgba(24, 24, 24, 0.8) !important;
+  margin-top: 36px !important;
+  margin-bottom: 1.5vh !important;
+  box-shadow: 0 2px 8px rgba(24,24,24,0.08);
+  width: 60px !important;
+  border-radius: 12px !important;
 }

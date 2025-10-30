@@ -1,0 +1,207 @@
+.pageBg {
+  min-height: 100vh;
+  background: #fff;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+}
+.centerWrap {
+  max-width: 420px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+.detailCard {
+  background: #eeeeee;
+  box-shadow: 0 1px 2px rgba(54, 72, 114, 0.08);
+  width: 80%;
+  padding-top: 30px;
+  padding-bottom: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.backBtnWrap {
+  width: 100%;
+  position: relative;
+  height: 32px;
+}
+.backBtn {
+  border: none;
+  background: none;
+  font-size: 28px;
+  cursor: pointer;
+  position: absolute;
+  left: -10px;
+  top: -1px;
+  color: #181a1a;
+  font-weight: 500;
+}
+.amount {
+  font-weight: 700;
+  font-size: 48px;
+  margin: 14px 0 0 0;
+  color: #181818;
+  letter-spacing: -2.2px;
+  text-align: center;
+  line-height: 1.05;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial,
+    sans-serif;
+}
+.transName {
+  color: #999daa;
+  font-size: 18px;
+  margin: 11px 0 0 0;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: -0.9px;
+}
+.transDate {
+  color: #ceced5;
+  font-size: 14px;
+  margin: 4px 0 24px 0;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+}
+.statusBox {
+  width: 88%;
+  background: #f6f7fa;
+  border-radius: 13px;
+  margin-bottom: 17px;
+  padding: 13px 16px;
+  font-size: 15px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.statusLabel {
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 3px;
+}
+.statusValue {
+  margin-left: 7px;
+  font-weight: 500;
+}
+.description {
+  color: #b9b8be;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.authUser {
+  color: #aaa;
+  font-size: 12px;
+  margin-top: 2px;
+}
+.totalBox {
+  width: 88%;
+  background: #f6f7fa;
+  border-radius: 13px;
+  padding: 10px 4px 8px 4px;
+  font-size: 18px;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  margin-top: 3px;
+}
+.totalLabel {
+  color: #bbb;
+  font-size: 17px;
+  font-weight: 600;
+}
+.totalValue {
+  color: #181818;
+  font-weight: 800;
+  font-size: 19px;
+}
+.detailInfo {
+  width: 91%;
+  background: #fff;
+  border-radius: 13px;
+  margin-bottom: 300px;
+  padding: 17px 15px 0 15px;
+  font-size: 15px;
+  box-shadow: 0 2px 5px rgba(100, 110, 130, 0.06);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial,
+    sans-serif;
+}
+.divider {
+  width: 100%;
+  border: none;
+  height: 1px;
+  background: #f2f2f3;
+  margin: 15px 0 2px 0;
+  padding: 0;
+}
+.statusRow {
+  font-weight: 700;
+  font-size: 15px;
+}
+.statusValue {
+  margin-left: 7px;
+  font-weight: 700;
+  color: #181818;
+}
+.description {
+  color: #b9b8be;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial,
+    sans-serif;
+}
+.authUser {
+  color: #aaa;
+  font-size: 12px;
+  margin-top: 2px;
+  font-weight: 400;
+}
+.totalRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-size: 18px;
+  padding: 5px 0 5px 0;
+  font-weight: 600;
+}
+.totalLabel {
+  color: #111;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+}
+.totalValue {
+  color: #181818;
+  font-weight: 800;
+  font-size: 18px;
+  letter-spacing: -0.8px;
+}
+.mobileBarDetail {
+  background: rgba(24, 24, 24, 0.7) !important;
+  margin-top: 36px !important;
+  margin-bottom: 5px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  box-shadow: 0 1px 5px rgba(24, 24, 24, 0.07);
+  width: 48px !important;
+  border-radius: 11px !important;
+}
