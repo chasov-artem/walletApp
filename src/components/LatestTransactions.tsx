@@ -11,7 +11,7 @@ const LatestTransactions: React.FC = () => {
   );
 
   useEffect(() => {
-    dispatch(fetchTransactions());
+    dispatch(fetchTransactions() as any);
   }, [dispatch]);
 
   if (loading)
@@ -21,7 +21,7 @@ const LatestTransactions: React.FC = () => {
 
   return (
     <div className={styles.latestTransactions}>
-      {transactions.slice(0, 10).map((t, i) => (
+      {transactions.slice(0, 10).map((t: any, i: number) => (
         <TransactionCard key={t.id} transaction={t} isLast={i === 9} />
       ))}
     </div>

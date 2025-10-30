@@ -5,11 +5,6 @@ import styles from "./TransactionDetail.module.css";
 import { IoIosArrowBack } from "react-icons/io";
 import MobileBar from "../components/MobileBar";
 
-const infoText = {
-  Approved: "#45b36b",
-  Pending: "#fbbe48",
-};
-
 function formatDate(dateStr: string) {
   const d = new Date(dateStr);
   const day = d.getDate().toString().padStart(2, "0");
@@ -24,14 +19,13 @@ const TransactionDetail: React.FC = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const transaction = useSelector((state: any) =>
-    state.transactions.transactions.find((t) => t.id === id)
+    state.transactions.transactions.find((t: any) => t.id === id)
   );
 
   if (!transaction)
     return <div style={{ padding: 28, textAlign: "center" }}>Not found</div>;
 
   const statusText = transaction.pending ? "Pending" : "Approved";
-  const statusColor = infoText[statusText as keyof typeof infoText];
   return (
     <div className={styles.pageBg}>
       <div className={styles.centerWrap}>

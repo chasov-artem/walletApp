@@ -9,17 +9,16 @@ const CardBalance: React.FC<{ className?: string }> = ({ className }) => {
   const { transactions } = useSelector((state: any) => state.transactions);
 
   const balance = transactions.reduce(
-    (sum, t) => (t.type === "payment" ? sum + t.amount : sum - t.amount),
+    (sum: number, t: any) => (t.type === "payment" ? sum + t.amount : sum - t.amount),
     0
   );
   const available = maxLimit - balance;
   return (
-    <div className={styles.cardBalance + (className ? ` ${className}` : "")}>
+    <div className={styles.cardBalance + (className ? ` ${className}` : "") }>
       <div className={styles.headline}>Card Balance</div>
       <div className={styles.balance}>${balance.toFixed(2)}</div>
-      <div className={styles.available}>
-        ${available.toLocaleString()} Available
-      </div>
+      <div className={styles.available}>${available.toLocaleString()} Available</div>
+      <div className={styles.limit}>Limit: ${maxLimit.toLocaleString()}</div>
     </div>
   );
 };
